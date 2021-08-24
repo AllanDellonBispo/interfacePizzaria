@@ -144,7 +144,7 @@ if(cart.length > 0){
 
         c('.cart').append(cartItem);
     }
-
+    
     desconto = subtotal * 0.1;
     total = subtotal - desconto;
 
